@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 8px 15px;
+    font-weight: 400;
+    font-size: clamp(12px, 2vw, 16px);
+    position: relative;
+    top: 0;
+    z-index: 999;
+}
+
+.email, .cell {
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.email:hover, .cell:hover {
+    color: rgb(163, 221, 48);
+}
+
+.email-info, .cell-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+    .contact-nav {
+        flex-direction: row;
+        align-items: center;
+        padding: 6px 10px;
+    }
+}
