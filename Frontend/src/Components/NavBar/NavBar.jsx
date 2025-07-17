@@ -1,13 +1,14 @@
 import './NavBar.css';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import logo from './../../assets/logo.png';
 
 const NavBar = () => {
 
     return(
         <div className="main-nav">
 
-            <img src="" alt="business-logo" />
+            <img src={logo} alt="business-logo" />
 
             <div className="nav-links">
                 <ul>

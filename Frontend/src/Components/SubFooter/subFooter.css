@@ -1,13 +1,20 @@
 .subFooter{
-    background-color: black;
-    color: white;
+    background-color: var(--light-mode);
+    color: var(--dark-mode);
     padding: 5px 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 .subFooter h3{
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1rem;
+}
+
+@media (max-width: 900px){
+    .subFooter h3{
+        font-size: 0.8rem;
+    }
 }

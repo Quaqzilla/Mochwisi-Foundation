@@ -16,6 +16,9 @@ const Home = () => {
             <NavBar />
             <Welcome/>
             <Vision/>
+            <Touch/>
+            <Footer/>
+            <SubFooter/>
         </div>
     );
 }

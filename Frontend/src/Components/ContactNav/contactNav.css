@@ -5,8 +5,8 @@
 }
 
 .contact-nav {
-    background-color: black;
-    color: white;
+    background-color: var(--light-mode);
+    color: var(--dark-mode);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -25,7 +25,7 @@
 }
 
 .email:hover, .cell:hover {
-    color: rgb(163, 221, 48);
+    color: var(--primary-color);
 }
 
 .email-info, .cell-info{

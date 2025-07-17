@@ -1,13 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .getTouch{
-    background-image: url('../../assets/touch.jpg');
+    background-image: url('../../assets/touch.webp');
+    filter: brightness(0.8);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 400px;
     width: 100%;
 }
@@ -19,8 +15,8 @@
     align-items:flex-start;
     margin-left: 40px;
     height: 100%;
-    color: white;
-    text-align: center;
+    color: var(--dark-mode);
+    text-align: left;
     font-size: 2rem;
 }
 
@@ -32,8 +28,8 @@
     padding: 10px 20px;
     font-size: 1rem;
     font-weight: bold;
-    color: black;
-    background-color: white;
+    color: var(--light-mode);
+    background-color: var(--dark-mode);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -41,12 +37,21 @@
 }
 
 .touch-text button:hover {
-    background-color: darkgreen;
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--dark-mode);
     transform: scale(1.05);
 }
 
 .touch-text button:active {
-    background-color: darkgreen;
+    background-color: var(--primary-color);
     transform: scale(0.95);
+}
+
+@media (max-width: 900px){
+    .touch-text{
+        font-size: 1.5rem;
+    }
+    .touch-text p{
+        font-size: 1.2rem
+    }
 }

@@ -1,3 +1,17 @@
 *{
     font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: hsl(113, 84%, 25%);
+    --secondary-color: #0a4715;
+    --tertiary-color: #fff;
+    --light-mode: #000000;
+    --dark-mode: #fff;
+    --nav-background: #202020;
+    --white-shade: rgb(226, 221, 221);
+    --panel-color: rgb(56, 55, 55);
 }
