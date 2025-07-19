@@ -17,12 +17,12 @@
     gap: 10px;
     margin-bottom: 20px;
     background-color: var(--panel-color);
-    padding: 20px 22px;
+    padding: 20px 26px;
     border-radius: 15px;
 }
 
 .info-content img{
-    width: 600px;
+    max-width: 600px;
     border-radius: 15px;
 }
 
@@ -79,6 +79,6 @@
     }
 
     .info-content img{
-        max-width: 280px;
+        max-width: 260px;
     }
 }
